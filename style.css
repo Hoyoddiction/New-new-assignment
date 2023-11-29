@@ -120,7 +120,7 @@ font-family: 'arial';
     align-items: center;
     margin-bottom: 10px;
 }
-.info .boxinfo span{
+.info .boxinfo .e span{
     min-width: 40px;
     height: 40px;
     color: white;
@@ -132,11 +132,11 @@ font-family: 'arial';
     border-radius: 50%;
     margin-right: 15px;
 }
-.info .boxinfo h6{
+.info .boxinfo .e h6{
     color: white;
     font-size: 15px;
 }
-.info .boxinfo .e{
+.info .boxinfo .e .b{
     color: white;
     text-decoration: none;
 }
@@ -147,7 +147,7 @@ font-family: 'arial';
 .sosmed .try{
     margin-right: 15px; 
 }
-.sosmed .try .e{
+.sosmed .try .b{
     color: white; 
     font-size: 24px;
     color: lightgray;
