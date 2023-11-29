@@ -4,7 +4,12 @@ padding:0;
 box-sizing: border-box;
 font-family: 'arial';
 }
-body
+.contractus-containe{
+    grid-row-start: 160;
+    grid-column-start: 48;
+    grid-column-end: 114
+}
+.contractus-containe
 {
     background:linear-gradient(90deg,darkolivegreen,rgb(214, 240, 171))
 }
@@ -158,11 +163,7 @@ body
     height: 100%;
 }
 
-.contractus-containe{
-    grid-row-start: 160;
-    grid-column-start: 48;
-    grid-column-end: 114
-}
+
 
 @media (max-width:991px){
     .contactus{
