@@ -4,12 +4,8 @@ padding:0;
 box-sizing: border-box;
 font-family: 'arial';
 }
-.contractus-containe{
-    grid-row-start: 160;
-    grid-column-start: 48;
-    grid-column-end: 96
-}
-.contractus-containe{
+body
+{
     background:linear-gradient(90deg,darkolivegreen,rgb(214, 240, 171))
 }
 .contactus{
@@ -119,7 +115,7 @@ font-family: 'arial';
     align-items: center;
     margin-bottom: 10px;
 }
-.info .boxinfo div span{
+.info .boxinfo span{
     min-width: 40px;
     height: 40px;
     color: white;
@@ -131,7 +127,7 @@ font-family: 'arial';
     border-radius: 50%;
     margin-right: 15px;
 }
-.info .boxinfo div h6{
+.info .boxinfo h6{
     color: white;
     font-size: 15px;
 }
@@ -146,7 +142,7 @@ font-family: 'arial';
 .sosmed .try{
     margin-right: 15px; 
 }
-.sosmed .e .try{
+.sosmed .try .e{
     color: white; 
     font-size: 24px;
     color: lightgray;
@@ -162,6 +158,11 @@ font-family: 'arial';
     height: 100%;
 }
 
+.contractus-containe{
+    grid-row-start: 160;
+    grid-column-start: 48;
+    grid-column-end: 114
+}
 
 @media (max-width:991px){
     .contactus{
