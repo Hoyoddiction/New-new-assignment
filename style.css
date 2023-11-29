@@ -4,12 +4,12 @@ padding:0;
 box-sizing: border-box;
 font-family: 'arial';
 }
-.contractus-containe{
+.contractuss{
     grid-row-start: 160;
     grid-column-start: 48;
     grid-column-end: 114
 }
-.contractus-containe
+.contractuss
 {
     background:linear-gradient(90deg,darkolivegreen,rgb(214, 240, 171))
 }
@@ -18,13 +18,13 @@ font-family: 'arial';
     width:100%;
     padding:40px 100px;
 }
-.contactus .conntactus-text{
+.contactus .conntactustext{
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 32px;
 }
-.contactus .conntactus-text h4{
+.contactus .conntactustext h4{
     color: white;
     font-weight: 500;
 }
