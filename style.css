@@ -139,15 +139,15 @@ body
     margin-top: 30px;
     display:flex
 }
-.sosmed .try{
+.sosmed div .try{
     margin-right: 15px; 
 }
-.sosmed .try .e{
+.sosmed div .try div .e{
     color: white; 
     font-size: 24px;
     color: lightgray;
 }
-.sosmed .try .e:hover{
+.sosmed div .try div .e:hover{
     color: white; 
 }
 .google{
